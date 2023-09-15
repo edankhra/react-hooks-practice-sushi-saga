@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="app">
       <SushiContainer sushis={sushis} onEatSushi={handleEatSushi} />
-      <Table plates = { emptyPlates} />
+      <Table plates = { emptyPlates} wallet={wallet} />
     </div>
   );
 }
